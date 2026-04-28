@@ -5,7 +5,7 @@
 
 Пусть заданно N случайных узлов на плоскости (рассматриваем точки с целочисленными координатами). Необходимо построить связный граф минимальной длины. Предлагается воспользоваться эвристикой и минимизировать сумму Манхеттонских длин всех рёбер графа:
 
-$$S = \sum_{i=1}^{N} \text{length}_i = \sum_{i=1}^{N} (|x_i - x_{i+1}| + |y_i - y_{i+1}|) \to \min$$
+$$S = \sum_{i=1}^{N-1} \text{length}_i = \sum_{i=1}^{N-1} (|x_i - x_{i+1}| + |y_i - y_{i+1}|) \to \min$$
 
 Ниже представлены результаты для некоторых наборов узлов. Исходные файлы лежат в папке `./SMT-benchmarks`, результаты работы программы построения графа находятся в папке `./test`.
 
@@ -16,7 +16,7 @@ $$S = \sum_{i=1}^{N} \text{length}_i = \sum_{i=1}^{N} (|x_i - x_{i+1}| + |y_i - 
     <td><img src="./test/img/0005_0000/0005_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center">Стандартный режим</td>
+    <td align="center"><Без точек Штейнера></td>
     <td align="center">Модифицированный режим</td>
   </tr>
 </table>
@@ -28,7 +28,7 @@ $$S = \sum_{i=1}^{N} \text{length}_i = \sum_{i=1}^{N} (|x_i - x_{i+1}| + |y_i - 
     <td><img src="./test/img/0013_0000/0013_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center">Стандартный режим</td>
+    <td align="center"><Без точек Штейнера></td>
     <td align="center">Модифицированный режим</td>
   </tr>
 </table>
@@ -40,7 +40,7 @@ $$S = \sum_{i=1}^{N} \text{length}_i = \sum_{i=1}^{N} (|x_i - x_{i+1}| + |y_i - 
     <td><img src="./test/img/0021_0000/0021_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center">Стандартный режим</td>
+    <td align="center"><Без точек Штейнера></td>
     <td align="center">Модифицированный режим</td>
   </tr>
 </table>
@@ -52,7 +52,7 @@ $$S = \sum_{i=1}^{N} \text{length}_i = \sum_{i=1}^{N} (|x_i - x_{i+1}| + |y_i - 
     <td><img src="./test/img/0030_0000/0030_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center">Стандартный режим</td>
+    <td align="center"><Без точек Штейнера></td>
     <td align="center">Модифицированный режим</td>
   </tr>
 </table>
