@@ -50,10 +50,6 @@ struct Node {
     {}
 
     ~Node() = default;
-
-    int distanceTo(const Node& other) const {
-        return std::abs(x - other.x) + std::abs(y - other.y);
-    }
 };
 
 struct Edge {
@@ -79,7 +75,7 @@ struct Edge {
     ~Edge() = default;
 };
 
-class DSU { // непересекающиеся множества
+class DSU { // непересекающиеся множества (для Mst)
 private:
     std::vector<int> parent;
     std::vector<int> rank;
