@@ -10,20 +10,52 @@ $$S = \sum_{i=1}^{N} \text{length}_i = \sum_{i=1}^{N} (|x_i - x_{i+1}| + |y_i - 
 Ниже представлены результаты для некоторых наборов узлов. Исходные файлы лежат в папке `./SMT-benchmarks`, результаты работы программы построения графа находятся в папке `./test`.
 
 ### 5 узлов
-<img src="./test/img/0005_0000/0005_0000_default_out.png" width="400">
-<img src="./test/img/0005_0000/0005_0000_out.png" width="400">
+<table>
+  <tr>
+    <td><img src="./test/img/0005_0000/0005_0000_default_out.png" width="400"></td>
+    <td><img src="./test/img/0005_0000/0005_0000_out.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">Стандартный режим</td>
+    <td align="center">Модифицированный режим</td>
+  </tr>
+</table>
 
 ### 13 узлов
-<img src="./test/img/0013_0000/0013_0000_default_out.png" width="400">
-<img src="./test/img/0013_0000/0013_0000_out.png" width="400">
+<table>
+  <tr>
+    <td><img src="./test/img/0013_0000/0013_0000_default_out.png" width="400"></td>
+    <td><img src="./test/img/0013_0000/0013_0000_out.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">Стандартный режим</td>
+    <td align="center">Модифицированный режим</td>
+  </tr>
+</table>
 
 ### 21 узел
-<img src="./test/img/0021_0000/0021_0000_default_out.png" width="400">
-<img src="./test/img/0021_0000/0021_0000_out.png" width="400">
+<table>
+  <tr>
+    <td><img src="./test/img/0021_0000/0021_0000_default_out.png" width="400"></td>
+    <td><img src="./test/img/0021_0000/0021_0000_out.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">Стандартный режим</td>
+    <td align="center">Модифицированный режим</td>
+  </tr>
+</table>
 
 ### 30 узлов
-<img src="./test/img/0030_0000/0030_0000_default_out.png" width="400">
-<img src="./test/img/0030_0000/0030_0000_out.png" width="400">
+<table>
+  <tr>
+    <td><img src="./test/img/0030_0000/0030_0000_default_out.png" width="400"></td>
+    <td><img src="./test/img/0030_0000/0030_0000_out.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">Стандартный режим</td>
+    <td align="center">Модифицированный режим</td>
+  </tr>
+</table>
 
 ## Улучшенный алгоритм
 
