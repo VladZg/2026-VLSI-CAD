@@ -16,8 +16,8 @@ $$S = \sum_{i=1}^{N-1} \text{length}_i = \sum_{i=1}^{N-1} (|x_i - x_{i+1}| + |y_
     <td><img src="./test/img/0005_0000/0005_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center"><Без точек Штейнера></td>
-    <td align="center">Модифицированный режим</td>
+    <td align="center">Без точек Штейнера</td>
+    <td align="center">С точками Штейнера</td>
   </tr>
 </table>
 
@@ -28,8 +28,8 @@ $$S = \sum_{i=1}^{N-1} \text{length}_i = \sum_{i=1}^{N-1} (|x_i - x_{i+1}| + |y_
     <td><img src="./test/img/0013_0000/0013_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center"><Без точек Штейнера></td>
-    <td align="center">Модифицированный режим</td>
+    <td align="center">Без точек Штейнера</td>
+    <td align="center">С точками Штейнера</td>
   </tr>
 </table>
 
@@ -40,8 +40,8 @@ $$S = \sum_{i=1}^{N-1} \text{length}_i = \sum_{i=1}^{N-1} (|x_i - x_{i+1}| + |y_
     <td><img src="./test/img/0021_0000/0021_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center"><Без точек Штейнера></td>
-    <td align="center">Модифицированный режим</td>
+    <td align="center">Без точек Штейнера</td>
+    <td align="center">С точками Штейнера</td>
   </tr>
 </table>
 
@@ -52,8 +52,8 @@ $$S = \sum_{i=1}^{N-1} \text{length}_i = \sum_{i=1}^{N-1} (|x_i - x_{i+1}| + |y_
     <td><img src="./test/img/0030_0000/0030_0000_out.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center"><Без точек Штейнера></td>
-    <td align="center">Модифицированный режим</td>
+    <td align="center">Без точек Штейнера</td>
+    <td align="center">С точками Штейнера</td>
   </tr>
 </table>
 
